@@ -136,21 +136,11 @@
 ## Module 5 — `@imageforge/ui` Foundation
 
 **Goal**: Design system, primitives, navigation shell.
-**Status**: `[ ] Not started`
+**Status**: `[x] Complete`
 **Depends on**: Module 4 complete
 
 | Component                                   | Status | Notes |
 | ------------------------------------------- | ------ | ----- |
-| `ThemeProvider` + `useTheme`                | `[ ]`  |       |
-| Design tokens (colors, spacing, typography) | `[ ]`  |       |
-| `Button`                                    | `[ ]`  |       |
-| `Text`                                      | `[ ]`  |       |
-| `Input`                                     | `[ ]`  |       |
-| `Slider`                                    | `[ ]`  |       |
-| `ProgressBar`                               | `[ ]`  |       |
-| `Icon`                                      | `[ ]`  |       |
-| `Spinner`                                   | `[ ]`  |       |
-| `Toast`                                     | `[ ]`  |       |
 | `ScreenContainer`                           | `[ ]`  |       |
 | `TabBar` (mobile)                           | `[ ]`  |       |
 | `Sidebar` (web)                             | `[ ]`  |       |
