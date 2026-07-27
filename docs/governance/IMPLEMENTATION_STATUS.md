@@ -49,31 +49,31 @@
 ## Module 1 — `@imageforge/types`
 
 **Goal**: All shared TypeScript interfaces defined. Zero runtime code.
-**Status**: `[ ] Not started`
+**Status**: `[x] Complete`
 **Depends on**: Module 0 complete
 
 | Interface / Type                            | Status | Notes              |
 | ------------------------------------------- | ------ | ------------------ |
-| `ImageFile`                                 | `[ ]`  | Core domain entity |
-| `ProcessingOperation` (discriminated union) | `[ ]`  |                    |
-| `CompressConfig`                            | `[ ]`  |                    |
-| `ResizeConfig`                              | `[ ]`  |                    |
-| `CropConfig`                                | `[ ]`  |                    |
-| `RotateConfig`                              | `[ ]`  |                    |
-| `FlipConfig`                                | `[ ]`  |                    |
-| `ConvertConfig`                             | `[ ]`  |                    |
-| `ProcessingResult`                          | `[ ]`  |                    |
-| `ProcessingError` class                     | `[ ]`  |                    |
-| `ImportError` class                         | `[ ]`  |                    |
-| `StorageError` class                        | `[ ]`  |                    |
-| `ProcessingEngine` interface                | `[ ]`  |                    |
-| `StorageAdapter` interface                  | `[ ]`  |                    |
-| `BatchJob`                                  | `[ ]`  |                    |
-| `BatchJobStatus`                            | `[ ]`  |                    |
-| `HistoryEntry`                              | `[ ]`  |                    |
-| `AppSettings`                               | `[ ]`  |                    |
-| `Theme`                                     | `[ ]`  |                    |
-| `DesignTokens`                              | `[ ]`  |                    |
+| `ImageFile`                                 | `[x]`  | Core domain entity |
+| `ProcessingOperation` (discriminated union) | `[x]`  |                    |
+| `CompressConfig`                            | `[x]`  |                    |
+| `ResizeConfig`                              | `[x]`  |                    |
+| `CropConfig`                                | `[x]`  |                    |
+| `RotateConfig`                              | `[x]`  |                    |
+| `FlipConfig`                                | `[x]`  |                    |
+| `ConvertConfig`                             | `[x]`  |                    |
+| `ProcessingResult`                          | `[x]`  |                    |
+| `ProcessingError` class                     | `[x]`  | Implemented as union |
+| `ImportError` class                         | `[x]`  | Implemented as union |
+| `StorageError` class                        | `[x]`  | Implemented as union |
+| `ProcessingEngine` interface                | `[x]`  |                    |
+| `StorageAdapter` interface                  | `[x]`  |                    |
+| `BatchJob`                                  | `[x]`  |                    |
+| `BatchJobStatus`                            | `[x]`  |                    |
+| `HistoryEntry`                              | `[x]`  |                    |
+| `AppSettings`                               | `[x]`  |                    |
+| `Theme`                                     | `[x]`  |                    |
+| `DesignTokens`                              | `[x]`  |                    |
 
 ---
 
@@ -246,7 +246,7 @@
 
 ```
 Module 0  Bootstrap          [x] ▓▓▓▓▓▓▓▓▓▓ 100%
-Module 1  Types              [ ] ░░░░░░░░░░  0%
+Module 1  Types              [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 2  Shared             [ ] ░░░░░░░░░░  0%
 Module 3  Image Core         [ ] ░░░░░░░░░░  0%
 Module 4  Hooks              [ ] ░░░░░░░░░░  0%
