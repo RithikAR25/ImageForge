@@ -7,9 +7,10 @@ export function useHistory(imageId: string): {
   canRedo: boolean;
   undo: () => void;
   redo: () => void;
+  entries: readonly import('@imageforge/types').HistoryEntry[];
 } {
   const entriesMap = useStore(historyStore, (state) => state.entries);
-  const history = entriesMap.get(imageId);
+  const history = entriesMap.get(imageId) || [];
   
   const canUndo = !!(history && history.length > 0);
   const canRedo = historyStore.getState().canRedo(imageId);
@@ -35,5 +36,6 @@ export function useHistory(imageId: string): {
     canRedo,
     undo,
     redo,
+    entries: history,
   };
 }

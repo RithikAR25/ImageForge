@@ -1,0 +1,31 @@
+{
+  "name": "@imageforge/app",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@imageforge/types": "workspace:*",
+    "@imageforge/shared": "workspace:*",
+    "@imageforge/image-core": "workspace:*",
+    "@imageforge/hooks": "workspace:*",
+    "@imageforge/ui": "workspace:*",
+    "react": "^19.0.0",
+    "react-native": "^0.78.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "eslint": "^9.16.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.70.0"
+  }
+}

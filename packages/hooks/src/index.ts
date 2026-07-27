@@ -6,4 +6,5 @@ export * from './hooks/useActiveImage';
 export * from './hooks/useImport';
 export * from './hooks/useExport';
 export * from './hooks/useThumbnail';
+export * from './hooks/useImages';
 export * from './context/EngineProvider';
