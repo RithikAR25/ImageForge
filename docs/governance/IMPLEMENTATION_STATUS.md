@@ -120,19 +120,16 @@
 ## Module 4 — `@imageforge/hooks`
 
 **Goal**: All React hooks consuming image-core.
-**Status**: `[ ] Not started`
+**Status**: `[x] Complete`
 **Depends on**: Module 3 complete
 
 | Hook                | Status | Notes |
 | ------------------- | ------ | ----- |
-| `useImageProcessor` | `[ ]`  |       |
-| `useBatchQueue`     | `[ ]`  |       |
-| `useHistory`        | `[ ]`  |       |
-| `useSettings`       | `[ ]`  |       |
-| `useActiveImage`    | `[ ]`  |       |
-| `useImport`         | `[ ]`  |       |
-| `useExport`         | `[ ]`  |       |
-| `useThumbnail`      | `[ ]`  |       |
+| `useSettings`       | `[x]`  |       |
+| `useActiveImage`    | `[x]`  |       |
+| `useImport`         | `[x]`  |       |
+| `useExport`         | `[x]`  |       |
+| `useThumbnail`      | `[x]`  |       |
 
 ---
 
@@ -239,7 +236,7 @@ Module 0  Bootstrap          [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 1  Types              [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 2  Shared             [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 3  Image Core         [x] ▓▓▓▓▓▓▓▓▓▓ 100%
-Module 4  Hooks              [ ] ░░░░░░░░░░  0%
+Module 4  Hooks              [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 5  UI Foundation      [ ] ░░░░░░░░░░  0%
 Module 6  MVP Screens        [ ] ░░░░░░░░░░  0%
 Module 7  Web App            [ ] ░░░░░░░░░░  0%
