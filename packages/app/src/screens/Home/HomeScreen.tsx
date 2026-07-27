@@ -1,4 +1,3 @@
-import React from 'react';
 import { HomeLayout } from '../../layouts/HomeLayout';
 import { ImportDropzone } from '../../components/ImportDropzone';
 import { ImageGrid } from '../../components/ImageGrid';

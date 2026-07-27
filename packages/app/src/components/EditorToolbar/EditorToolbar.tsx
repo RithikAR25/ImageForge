@@ -1,4 +1,3 @@
-import React from 'react';
 import { Stack, Button, Text, useTheme } from '@imageforge/ui';
 import { useActiveImage } from '@imageforge/hooks';
 

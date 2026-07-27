@@ -1,5 +1,4 @@
-import React from 'react';
-import { Box, Stack, useTheme, Button, Dialog, DialogHeader, DialogBody, DialogFooter } from '@imageforge/ui';
+import { Box, useTheme, Button, Dialog, DialogHeader, DialogBody, DialogFooter } from '@imageforge/ui';
 import { BatchQueue } from '../../components/BatchQueue';
 
 export interface BatchScreenProps {

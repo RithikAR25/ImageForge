@@ -1,4 +1,3 @@
-import React from 'react';
 import { Stack, Button, Text } from '@imageforge/ui';
 import { useBatchQueue } from '@imageforge/hooks';
 

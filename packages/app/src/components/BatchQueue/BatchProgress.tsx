@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Stack, Text, ProgressBar, useTheme } from '@imageforge/ui';
 import { useBatchQueue } from '@imageforge/hooks';
 

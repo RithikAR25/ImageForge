@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Stack, useTheme } from '@imageforge/ui';
 
 export interface HomeLayoutProps {

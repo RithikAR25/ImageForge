@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Stack, Text, Button, Icon, useTheme } from '@imageforge/ui';
 import { useImport } from '@imageforge/hooks';
 

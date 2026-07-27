@@ -1,4 +1,3 @@
-import React from 'react';
 import { Stack, Box, Text, useTheme } from '@imageforge/ui';
 import { useBatchQueue } from '@imageforge/hooks';
 import { BatchItem } from './BatchItem';

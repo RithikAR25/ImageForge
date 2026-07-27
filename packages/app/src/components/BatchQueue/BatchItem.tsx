@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Stack, Text, Card, ProgressBar, Badge, useTheme } from '@imageforge/ui';
 import type { BatchJob } from '@imageforge/types';
 

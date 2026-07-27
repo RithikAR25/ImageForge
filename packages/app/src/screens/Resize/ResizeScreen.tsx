@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { EditorLayout } from '../../layouts/EditorLayout';
 import { EditorToolbar } from '../../components/EditorToolbar';
 import { Box, Stack, Text, Card, useTheme, Input } from '@imageforge/ui';

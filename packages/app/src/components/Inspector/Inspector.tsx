@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Stack, Text, Card, useTheme } from '@imageforge/ui';
 import { useActiveImage } from '@imageforge/hooks';
 import { formatFileSize } from '@imageforge/shared';

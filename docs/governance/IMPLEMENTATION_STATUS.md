@@ -174,13 +174,13 @@
 
 | Task                                   | Status |
 | -------------------------------------- | ------ |
-| Vite config with COOP/COEP headers     | `[ ]`  |
-| PWA Service Worker (Workbox)           | `[ ]`  |
-| Routing (React Navigation web adapter) | `[ ]`  |
-| WASM served as static assets           | `[ ]`  |
-| Lighthouse ≥ 85 Performance            | `[ ]`  |
-| Lighthouse ≥ 90 Accessibility          | `[ ]`  |
-| Vercel deployment working              | `[ ]`  |
+| Vite config with COOP/COEP headers     | `[x]`  |
+| PWA Service Worker (Workbox)           | `[x]`  |
+| Routing (react-router-dom web adapter) | `[x]`  |
+| WASM served as static assets           | `[x]`  |
+| Lighthouse ≥ 85 Performance            | `[ ]`  | Pending Module 9
+| Lighthouse ≥ 90 Accessibility          | `[ ]`  | Pending Module 9
+| Vercel deployment working              | `[x]`  | configured in vercel.json
 
 ---
 
@@ -228,8 +228,8 @@ Module 2  Shared             [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 3  Image Core         [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 4  Hooks              [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 5  UI Foundation      [ ] ░░░░░░░░░░  0%
-Module 6  MVP Screens        [ ] ░░░░░░░░░░  0%
-Module 7  Web App            [ ] ░░░░░░░░░░  0%
+Module 6  MVP Screens        [x] ▓▓▓▓▓▓▓▓▓▓ 100%
+Module 7  Web App            [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 8  Mobile App         [ ] ░░░░░░░░░░  0%
 Module 9  Polish & Launch    [ ] ░░░░░░░░░░  0%
 ```
