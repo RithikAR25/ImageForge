@@ -247,7 +247,7 @@
 ```
 Module 0  Bootstrap          [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 1  Types              [x] ▓▓▓▓▓▓▓▓▓▓ 100%
-Module 2  Shared             [ ] ░░░░░░░░░░  0%
+Module 2  Shared             [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 3  Image Core         [ ] ░░░░░░░░░░  0%
 Module 4  Hooks              [ ] ░░░░░░░░░░  0%
 Module 5  UI Foundation      [ ] ░░░░░░░░░░  0%
