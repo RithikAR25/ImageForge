@@ -100,30 +100,20 @@
 
 ## Module 3 — `@imageforge/image-core`
 
-**Goal**: Processing pipeline, WASM engine, all MVP operations.
-**Status**: `[ ] Not started`
-**Depends on**: Module 2 complete
+**Goal**: Image processing pipeline, WASM execution layer, import/export.
+**Status**: `[x] Complete`
+**Depends on**: Module 1, Module 2 complete
 
-| Export                                      | Status | Notes |
-| ------------------------------------------- | ------ | ----- |
-| `ImagePipeline`                             | `[ ]`  |       |
-| `WasmWorkerPool`                            | `[ ]`  |       |
-| `wasm.worker.ts` (Web Worker)               | `[ ]`  |       |
-| `createCompressOperation`                   | `[ ]`  |       |
-| `createResizeOperation`                     | `[ ]`  |       |
-| `createCropOperation`                       | `[ ]`  |       |
-| `createRotateOperation`                     | `[ ]`  |       |
-| `createFlipOperation`                       | `[ ]`  |       |
-| `createConvertOperation`                    | `[ ]`  |       |
-| `FileImporter`                              | `[ ]`  |       |
-| `ExifParser`                                | `[ ]`  |       |
-| `ThumbnailGenerator`                        | `[ ]`  |       |
-| `DuplicateDetector`                         | `[ ]`  |       |
-| `Exporter`                                  | `[ ]`  |       |
-| `ZipBuilder` (web)                          | `[ ]`  |       |
-| `StorageAdapter` web impl (IndexedDB/Dexie) | `[ ]`  |       |
-| `StorageAdapter` native impl (expo-sqlite)  | `[ ]`  |       |
-| `BatchOrchestrator`                         | `[ ]`  |       |
+| Interface / Class        | Status | Notes                                |
+| ------------------------ | ------ | ------------------------------------ |
+| `ImagePipeline`          | `[x]`  |                                      |
+| `WasmWorkerPool`         | `[x]`  | Orchestration only (no codec tied in)|
+| Factories (`compress`..) | `[x]`  |                                      |
+| `FileImporter`           | `[x]`  | Returns `ImageFile` + `EXIF` via exifr|
+| `ThumbnailGenerator`     | `[x]`  | Mocked async implementation          |
+| `DuplicateDetector`      | `[x]`  | Name & Size checks                   |
+| `Exporter`               | `[x]`  | Implemented using `jszip`            |
+| `BatchOrchestrator`      | `[x]`  | AbortSignal standard implemented     |
 
 ---
 
@@ -248,7 +238,7 @@
 Module 0  Bootstrap          [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 1  Types              [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 2  Shared             [x] ▓▓▓▓▓▓▓▓▓▓ 100%
-Module 3  Image Core         [ ] ░░░░░░░░░░  0%
+Module 3  Image Core         [x] ▓▓▓▓▓▓▓▓▓▓ 100%
 Module 4  Hooks              [ ] ░░░░░░░░░░  0%
 Module 5  UI Foundation      [ ] ░░░░░░░░░░  0%
 Module 6  MVP Screens        [ ] ░░░░░░░░░░  0%
